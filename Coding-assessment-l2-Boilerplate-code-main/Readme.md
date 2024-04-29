@@ -30,7 +30,7 @@ To run this project locally, follow these steps:
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/sairamdasari7/marmeto-product-display-app.git
 
 2. Navigate to the project directory:
    
