@@ -35,7 +35,7 @@ To run this project locally, follow these steps:
 2. Navigate to the project directory:
    
    ```bash
-   cd product-display-app
+   cd Coding-assessment-l2-Boilerplate-code-main
    
 3.Open index.html in your web browser.
 
