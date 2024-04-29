@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300");
+/* html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right bottom, #873572, black);
+}
+a {
+  display: inline-block;
+  color: lightgrey;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  white-space: nowrap;
+  padding: 12px;
+  border: 1px solid white;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: all 0.15s ease-in-out;
+}
+
+a:hover {
+  background: rgba(0, 0, 0, 0.23);
+  color: white;
+  transform: scale(1.03);
+  text-decoration: none;
+}
+a:active {
+  transform: scale(0.98);
+} */
+
+ body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.tabs button {
+  background-color: #ffffff;
+  color: black;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: 0;
+  border-style: solid;
+  border-radius: 10px;
+  width: 140px;
+  font-size: 18px;
+  box-shadow: 1px 2px;
+  margin: 10px;
+}
+
+.tabs button.active {
+  background-color: black;
+  color: #ffffff;
+}
+
+.tabs button:hover {
+  opacity: 0.8;
+}
+
+.main-heading {
+  text-align: center;
+  font-family: "Inter";
+  font-size: 28px;
+  margin: 10px;
+  font-weight: bold;
+}
+
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.product-card {
+  flex: 0 1 calc(48% - 20px);
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+.product-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.product-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.product-pricing {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.product_title {
+  text-align: center;
+  font-family: "Inter";
+  font-size: 23px;
+  margin: 10px;
+  font-weight: bold;
+}
+
+.vender {
+  text-align: center;
+  font-family: "Inter";
+  font-size: 19px;
+  margin: 5px;
+}
+
+.product_price {
+  text-align: center;
+  font-family: "Inter";
+  font-size: 18px;
+  margin: 5px;
+  font-weight: bold;
+}
+
+.product_price_strike {
+  text-align: center;
+  font-family: "Inter";
+  font-size: 14px;
+  margin: 5px;
+  text-decoration: line-through;
+}
+
+.discount_percentage {
+  text-align: center;
+  font-family: "Inter";
+  font-size: 16px;
+  margin: 10px;
+  font-weight: bold;
+  color: #ff0000;
+}
+
+.button {
+  background-color:#000000;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+  margin: 10px;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+/* Responsive Design */
+@media (max-width: 576px) {
+  .tabs {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .tabs button {
+      margin-bottom: 10px;
+  }
+
+  .product-card {
+      flex: 0 1 calc(100% - 20px);
+  }
+}
+
+@media (min-width: 577px) {
+  .product-container {
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .product-card {
+      flex: 0 1 calc(23% - 20px);
+  }
+}
